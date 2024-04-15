@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# Fully Authenticated Sign-in Page with React
+## Hosted Link:- https://educase-task-one.vercel.app/
+
+This project implements a fully functional sign-in page using React, `react-router-dom` for routing, and `react-toastify` 
+for displaying toast notifications, `Framer Motion` for smooth routing between tha pages. User credentials are authenticated against stored data using `localStorage`.
+
+## Features
+
+- User authentication with email and password
+- Success and error toast notifications for login feedback
+- Routing using `react-router-dom`
+- Persisting user data in `localStorage`
+
+## Usage
+- Login Page (LoginPage.js)
+  Enter valid email and password to sign in.
+Click "Login" button to submit the form.
+Successful login displays a success toast notification.
+Failed login displays an error toast notification.
+
+- Routing (App.js)
+  Uses react-router-dom for navigation between pages.
+- Toast Notifications (Toast.js)
+  Toast component handles displaying success or error messages.
+- Framer Motion:- To enable smooth routing between pages.
+- React icons:- To import icons.
+
+##  LocalStorage Usage
+- User data (e.g., email and password) is stored in localStorage.
+- Modify localStorage usage based on security requirements and best practices. 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
